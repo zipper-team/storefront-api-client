@@ -1,0 +1,8 @@
+#import "../../fragments/customerFragment.graphql"
+
+query customer {
+  customer {
+    ...CustomerData
+    is_subscribed
+  }
+}
