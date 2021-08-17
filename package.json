@@ -21,7 +21,8 @@
     "prepublish": "yarn build",
     "test": "jest",
     "update:check": "ncu",
-    "update:update": "ncu -u"
+    "update:update": "ncu -u",
+    "postinstall": "npm run build"
   },
   "dependencies": {
     "@apollo/client": "^3.3.19",
